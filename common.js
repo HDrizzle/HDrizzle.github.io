@@ -29,7 +29,8 @@ function compile_all_tags(posts_metadata) {
             }
         }
         let tags = posts_metadata[post_id]["tags"];
-        for(let tag in tags) {
+        for(let i = 0; i < tags.length; i++) {
+            let tag = tags[i];
             if(out.hasOwnProperty(tag)) {
                 out[tag] += 1;
             }

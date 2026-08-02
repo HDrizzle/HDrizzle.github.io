@@ -1,20 +1,24 @@
 {
 	"template": {
 		"name": "Post Template",
-		"tags": ["template", "test"],
+		"tags": ["template"],
 		"started": "2026-8-1",
 		"hidden": true
 	},
 	"computer_v1": {
 		"name": "Original DIY Computer",
-		"tags": ["digital", "project", "computer", "electronics"],
+		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-3-11",
-		"image": "computer_v1_complete.png"
+		"image": "computer_v1_completed_back.jpeg",
+		"link": "https://github.com/HDrizzle/stack_machine",
+		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
 	"rusty_logic": {
 		"name": "Rusty Logic",
-		"tags": ["digital", "project", "electronics", "rust", "programming"],
+		"tags": ["digital-logic", "project", "rust", "programming", "showcase"],
 		"started": "2025",
-		"image": "computer_v1_complete.png"
+		"image": "rusty_logic_example_scrot.png",
+		"link": "https://github.com/HDrizzle/rusty_logic_core",
+		"desc": "I was inspired to create this program after making a crude logic simulator/animator in TS for MotionCanvas for my DIY computer presentation. It is written in Rust and is the program I used to design the 2nd version of my computer."
 	}
 }

@@ -1,24 +1,51 @@
 body {
-    background-color: #000000;
-    color: #FFFFFF;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.cool-box {
+	background-color: #555555;
+	padding: 0.5em;
+	margin: 1em;
+	border-color: #AAAAAA;
+	border-width: 1px;
+	border-radius: 0px;
+	border-style: solid;
+}
+
+.tag-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
 .tag {
-    padding: 0.3em;
-    margin: 0.3em;
-    border-color: #00FF00;
-    border-width: 1px;
-    border-radius: 0px;
-    border-style: solid;
-    color: #FFFFFF;
+	padding: 0.3em;
+	margin: 0.3em;
+	border-color: #00FF00;
+	border-width: 1px;
+	border-radius: 0px;
+	border-style: solid;
+	color: #FFFFFF;
 }
 
 .post-thumbnail {
-    padding: 0.3em;
-    margin: 0.3em;
-    border-color: #0000FF;
-    border-width: 1px;
-    border-radius: 0px;
-    border-style: solid;
-    color: #FFFFFF;
+	padding: 0.3em;
+	margin: 0.3em;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-radius: 0px;
+	border-style: solid;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.post-thumbnail img {
+	display: block;
+	max-width:16em;
+	max-height:10em;
+	width: auto;
+	height: auto;
 }
