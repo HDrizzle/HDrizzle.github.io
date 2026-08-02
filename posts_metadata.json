@@ -1,0 +1,19 @@
+{
+	"template": {
+		"name": "Post Template",
+		"tags": ["template", "test"],
+		"started": "2026-8-1"
+	},
+	"computer_v1": {
+		"name": "Original DIY Computer",
+		"tags": ["digital", "project", "computer", "electronics"],
+		"started": "2024-3-11",
+		"image": "computer_v1_complete.png"
+	},
+	"rusty_logic": {
+		"name": "Rusty Logic",
+		"tags": ["digital", "project", "electronics", "rust", "programming"],
+		"started": "2025",
+		"image": "computer_v1_complete.png"
+	}
+}
