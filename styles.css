@@ -2,3 +2,23 @@ body {
     background-color: #000000;
     color: #FFFFFF;
 }
+
+.tag {
+    padding: 0.3em;
+    margin: 0.3em;
+    border-color: #00FF00;
+    border-width: 1px;
+    border-radius: 0px;
+    border-style: solid;
+    color: #FFFFFF;
+}
+
+.post-thumbnail {
+    padding: 0.3em;
+    margin: 0.3em;
+    border-color: #0000FF;
+    border-width: 1px;
+    border-radius: 0px;
+    border-style: solid;
+    color: #FFFFFF;
+}

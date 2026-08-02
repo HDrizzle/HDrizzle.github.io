@@ -2,7 +2,8 @@
 	"template": {
 		"name": "Post Template",
 		"tags": ["template", "test"],
-		"started": "2026-8-1"
+		"started": "2026-8-1",
+		"hidden": true
 	},
 	"computer_v1": {
 		"name": "Original DIY Computer",

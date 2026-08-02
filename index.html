@@ -1,17 +1,23 @@
 <html>
 	<head>
 		<title>Hadrin Ward</title>
+		<script src="/main_page.js"></script>
+        <script src="/common.js"></script>
+        <link rel="stylesheet" href="/styles.css">
 	</head>
 	<body>
-		<h1>Hadrian Ward's Websit thingy hosted by GitHub</h1>
-		<p>Hi, I am a 2nd year electrical engineering student at WPI. Outside of brain work I enjoy road cycling and nordic skiing so that I can get off my fat ass.</p>
+		<h1>Hadrian Ward's list of projects / blog</h1>
+		<p>Hi, I am a 2nd year electrical engineering student at WPI. My hobbies include road cycling, nordic skiing, a bit of running, and creating software and electronics.</p>
 		<div>
-			<h2><a href="/projects">Projects</a></h2>
-			List of all my projects throughout the years.
+			<h2>Projects</h2>
 		</div>
-		<div>
-			<h2><a href="/random">Random things / Microprojects</a></h2>
-			List of all my projects throughout the years.
+		<div style="flex-direction: row;">
+			<div style="flex-direction: column;">
+				<input type="text" id="tag-search" placeholder="Search tags to filter" />
+				<div id="tag-box"></div>
+			</div>
+			<span id="applied-filter-tags"></span>
 		</div>
+		<div id="recent-posts-box"></div>
 	</body>
 </html>
