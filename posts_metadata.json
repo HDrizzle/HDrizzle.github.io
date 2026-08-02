@@ -16,9 +16,30 @@
 	"rusty_logic": {
 		"name": "Rusty Logic",
 		"tags": ["digital-logic", "project", "rust", "programming", "showcase"],
-		"started": "2025",
+		"started": "2025-6-11",
 		"image": "rusty_logic_example_scrot.png",
 		"link": "https://github.com/HDrizzle/rusty_logic_core",
 		"desc": "I was inspired to create this program after making a crude logic simulator/animator in TS for MotionCanvas for my DIY computer presentation. It is written in Rust and is the program I used to design the 2nd version of my computer."
+	},
+	"amateur_radio": {
+		"name": "Amateur Radio",
+		"tags": ["amateur-radio", "electronics"],
+		"started": "2025-10-1",
+		"desc": "Description of my activities and projects so far related to Amateur Radio, also called Ham Radio",
+		"image": "rig_setup_outside_2026.jpeg"
+	},
+	"hf_antenna_matcher_v1": {
+		"name": "HF Antenna Matcher",
+		"tags": ["amateur-radio", "electronics"],
+		"started": "2026-4-2",
+		"desc": "DIY HF Antenna impedance matcher, built entirely out of parts collected from WPI's EE building",
+		"image": "hf_tuner_v1_done.jpeg"
+	},
+	"sparkler_powder_rocket": {
+		"name": "Sparkler Powder Rocket Testing",
+		"tags": ["pyrotechnics", "project"],
+		"started": "2025-12-31",
+		"desc": "Long story of trying and failing to build a rocket engine that burns sparkler powder",
+		"image": "rocket_v1_firing.jpg"
 	}
 }

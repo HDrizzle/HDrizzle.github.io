@@ -42,10 +42,26 @@ body {
 	justify-content: space-between;
 }
 
+.img-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
 .post-thumbnail img {
 	display: block;
 	max-width:16em;
 	max-height:10em;
 	width: auto;
 	height: auto;
+}
+
+.img-container img {
+	display: block;
+	max-width:20em;
+	max-height:15em;
+	width: auto;
+	height: auto;
+	margin: 0.3em;
 }
