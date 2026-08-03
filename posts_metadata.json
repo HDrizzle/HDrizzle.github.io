@@ -9,7 +9,7 @@
 		"name": "Original DIY Computer",
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-3-11",
-		"image": "computer_v1_completed_back.jpeg",
+		"image": "computer_v1/computer_v1_completed_back.jpeg",
 		"link": "https://github.com/HDrizzle/stack_machine",
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
@@ -30,7 +30,7 @@
 	},
 	"hf_antenna_matcher_v1": {
 		"name": "HF Antenna Matcher",
-		"tags": ["amateur-radio", "electronics"],
+		"tags": ["amateur-radio", "electronics", "project"],
 		"started": "2026-4-2",
 		"desc": "DIY HF Antenna impedance matcher, built entirely out of parts collected from WPI's EE building",
 		"image": "hf_tuner_v1_done.jpeg"
@@ -40,6 +40,14 @@
 		"tags": ["pyrotechnics", "project"],
 		"started": "2025-12-31",
 		"desc": "Long story of trying and failing to build a rocket engine that burns sparkler powder",
-		"image": "rocket_v1_firing.jpg"
+		"image": "rocket/rocket_v1_firing.jpg"
+	},
+	"sailboat_simulator": {
+		"name": "Sailboat Simulator",
+		"tags": ["programming", "physics", "python", "project"],
+		"started": "2021",
+		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
+		"link": "https://github.com/HDrizzle/sailboat_simulator_python",
+		"image": "sailboat_simulator_simple_scrot.png"
 	}
 }
