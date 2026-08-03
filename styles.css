@@ -51,7 +51,7 @@ body {
 
 .post-thumbnail img {
 	display: block;
-	max-width:16em;
+	max-width:20em;
 	max-height:10em;
 	width: auto;
 	height: auto;
@@ -59,7 +59,6 @@ body {
 
 .img-container img {
 	display: block;
-	max-width:20em;
 	max-height:15em;
 	width: auto;
 	height: auto;

@@ -2,38 +2,60 @@
 	"template": {
 		"name": "Post Template",
 		"tags": ["template"],
-		"started": "2026-8-1",
+		"started": "2026-08-01",
 		"hidden": true
 	},
+	"bike_bags": {
+		"name": "Bike cargo bags",
+		"tags": ["cycling", "project"],
+		"started": "2026-07-09",
+		"desc": "Attempt to sew my own waterproof bike cargo bags",
+		"image": "bike_stuff/back_bag_paper.jpeg"
+	},
+	"antenna_system": {
+		"name": "Amature Radio Antenna, Accessories",
+		"tags": ["amateur-radio", "electronics"],
+		"started": "2026-07-18",
+		"image": "amateur_radio/feedpoint_balun_loading_coil.jpeg",
+		"desc": "My experiments with antennas, loading coils, BalUns, etc"
+	},
 	"computer_v1": {
-		"name": "Original DIY Computer",
+		"name": "Original 8 Bit Computer",
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
-		"started": "2024-3-11",
+		"started": "2024-03-11",
 		"image": "computer_v1/computer_v1_completed_back.jpeg",
 		"link": "https://github.com/HDrizzle/stack_machine",
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
+	"computer_v2": {
+		"name": "Computer V2",
+		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
+		"started": "2026-01-23",
+		"desc": "A fully backwards-compatible version of my first computer, this design has much better performance and more features. I have not started building it yet because of the cost, however I have a working simulation.",
+		"link": "https://github.com/HDrizzle/stack_machine",
+		"image": "computer_v2/computer_v2_fibonacci.webp"
+	},
 	"rusty_logic": {
 		"name": "Rusty Logic",
 		"tags": ["digital-logic", "project", "rust", "programming", "showcase"],
-		"started": "2025-6-11",
+		"started": "2025-06-11",
 		"image": "rusty_logic_example_scrot.png",
 		"link": "https://github.com/HDrizzle/rusty_logic_core",
 		"desc": "I was inspired to create this program after making a crude logic simulator/animator in TS for MotionCanvas for my DIY computer presentation. It is written in Rust and is the program I used to design the 2nd version of my computer."
 	},
 	"amateur_radio": {
-		"name": "Amateur Radio",
-		"tags": ["amateur-radio", "electronics"],
-		"started": "2025-10-1",
+		"name": "Amateur Radio - KC1YKK",
+		"tags": ["amateur-radio", "electronics", "showcase"],
+		"started": "2025-10-01",
 		"desc": "Description of my activities and projects so far related to Amateur Radio, also called Ham Radio",
-		"image": "rig_setup_outside_2026.jpeg"
+		"image": "amateur_radio/rig_setup_outside_2026.jpeg"
 	},
 	"hf_antenna_matcher_v1": {
 		"name": "HF Antenna Matcher",
 		"tags": ["amateur-radio", "electronics", "project"],
-		"started": "2026-4-2",
+		"started": "2026-04-02",
 		"desc": "DIY HF Antenna impedance matcher, built entirely out of parts collected from WPI's EE building",
-		"image": "hf_tuner_v1_done.jpeg"
+		"image": "amateur_radio/hf_tuner_v1_done.jpeg"
 	},
 	"sparkler_powder_rocket": {
 		"name": "Sparkler Powder Rocket Testing",
