@@ -1,37 +1,41 @@
 <html>
 	<head>
 		<title>Amature Radio Antenna, Accessories - Hadrian Ward</title>
-        <div hidden id="post-id">antenna_system</div>
-        <script src="/post_features.js"></script>
-        <script src="/common.js"></script>
-        <link rel="stylesheet" href="/styles.css">
+		<div hidden id="post-id">antenna_system.html</div>
+		<script src="/post_features.js"></script>
+		<script src="/common.js"></script>
+		<link rel="stylesheet" href="/styles.css">
 	</head>
 	<body>
 		<h1>Amature Radio Antenna, Accessories - Hadrian Ward</h1>
 		<div id="tag-list"></div>
-        <div>
-            <h2>Antenna configurations</h2>
-            <p>
-                An antenna creates or rcieves an alternating electric field. I have experimented with dipoles and quarter-wave-vertical-ground-planes. A vertical-gound-plane resembles a dipole where half the dipole is vertical, and the other half of the dipole is "mirrored" in an infinite conducting plane (the ground plane).
-                Because infinite conducting planes don't exist, a few radial wires spread across the ground all connected as the other side of the dipole also works.
-                People more experienced than me have experimented with vertical wire length, radial wire length, and number of radial wires. I have just used whatever wire I have from the piles of junk.
-            </p>
-            <h2>Loading coil</h2>
-            <p>
-                The lowest commonly used Ham Band is 160 meters WL, or 40 meters quarter-wave-vertical-ground-plane which is high to climb in a tree. My point is that constructing an antenna with the ideal geometry is sometimes difficult. To make a much shorter wire resonate at longer wavelengths an inductor can be placed before it at the feedpoint (or anywhere along the wire).
-                A loading coil works by canceling out the capacitance of an antenna that is too short, making it resonate at a lower frequency. The loading coil I built has a wiper for adjusting the inductance and therefore the resonant frequency.
-            </p>
-            <h2>Current choke or BalUn</h2>
-            <p>
-                TODO
-            </p>
-            <h2>My setup</h2>
-            <div class="img-container">
-                <img src="/images/amateur_radio/feedpoint_balun_loading_coil.jpeg" />
-                <img src="/images/amateur_radio/balun_with_nanovna.png" />
-            </div>
-            <p>Photo 1: In the photo the pair of wires wrapped around a toroid is the balun. The large coil is the adjustable loading coil.</p>
-            <p>Photo 2: Testing the balun with the NanoVNA. It isn't perfect but not too bad all the way up to 30 MHz.</p>
-        </div>
+		<div>
+			<h2>Antenna configurations</h2>
+			<p>
+				An antenna creates or rcieves an alternating electric field. I have experimented with dipoles and quarter-wave-vertical-ground-planes. A vertical-gound-plane resembles a dipole where half the dipole is vertical, and the other half of the dipole is "mirrored" in an infinite conducting plane (the ground plane).
+				Because infinite conducting planes don't exist, a few radial wires spread across the ground all connected as the other side of the dipole also works.
+				People more experienced than me have experimented with vertical wire length, radial wire length, and number of radial wires. I have just used whatever wire I have from the piles of junk.
+			</p>
+			<h2>Loading coil</h2>
+			<p>
+				The lowest commonly used Ham Band is 160 meters WL, or 40 meters quarter-wave-vertical-ground-plane which is high to climb in a tree. My point is that constructing an antenna with the ideal geometry is sometimes difficult. To make a much shorter wire resonate at longer wavelengths an inductor can be placed before it at the feedpoint (or anywhere along the wire).
+				A loading coil works by canceling out the capacitance of an antenna that is too short, making it resonate at a lower frequency. The loading coil I built has a wiper for adjusting the inductance and therefore the resonant frequency.
+			</p>
+			<h2>Current choke or BalUn</h2>
+			<p>
+				Signals going in and out of nearly all radio equipemnt are Unbalanced. This means that one conductor (the shield of the coax) stays at 0 volts relative to ground - it is ground, while the other conductor carries voltage waves. Current is still equal and opposite so the coax cannot radiate or recieve.
+				Dipole andennas, and probably most other ones, are on the other hand Balanced meaning that both ends have equal and opposite voltages relative to ground. If one were to connect an unbalanced feedline to a balanced dipole, there would be <i>Common-Mode Current</i> in the feedline, meaning net current flow where the two conductors don't cancel out.
+				Common-mode curents in any cable will make it an antenna which a feedline is not supposed to be. A device called a BalUn (Balanced-to-Unbalanced) can be used to block common-mode current between an antenna and feedline.
+				There are many ways to create a BalUn, the easiest to understand and construct is a choke. A Choke is an inductor wound with a pair of wires (the feedline). Differential current in the feedline creates opposite magnetic fields and is not affected. Common-mode current has a large inductive reactance to get through and is therefore blocked.
+				The impedance of the transmission line still has to be reasonable (close to 50 ohms) which is why I have the plastic piece in the middle and the fishing line around the outside to keep the pair of wires as close as possible.
+			</p>
+			<h2>My setup</h2>
+			<div class="img-container">
+				<img src="/images/amateur_radio/feedpoint_balun_loading_coil.jpeg" />
+				<img src="/images/amateur_radio/balun_with_nanovna.png" />
+			</div>
+			<p>Photo 1: The pair of wires wrapped around a toroid is the balun. The large coil is the adjustable loading coil.</p>
+			<p>Photo 2: Testing the balun with the NanoVNA. It isn't perfect but not too bad all the way up to 30 MHz.</p>
+		</div>
 	</body>
 </html>

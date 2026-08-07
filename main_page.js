@@ -27,12 +27,18 @@ function create_post_thumbnail(post_id) {
 	sub_span.innerHTML = "Started " + post_metadata["started"];
 	info_span.appendChild(sub_span);
 	// Optional link within info span
-	if(post_metadata.hasOwnProperty("link")) {
-		let repo_link = document.createElement("a");
-		repo_link.style.marginLeft = "1em";
-		repo_link.innerHTML = post_metadata["link"];
-		repo_link.setAttribute("href", post_metadata["link"]);
-		info_span.appendChild(repo_link);
+	if(post_metadata.hasOwnProperty("ext_links")) {
+		let links = post_metadata["ext_links"];
+		if(links.length > 0) {
+			for(let i = 0; i < links.length; i++) {
+				let ext_link = document.createElement("a");
+				ext_link.style.marginLeft = "1em";
+				ext_link.innerHTML = links[i];
+				ext_link.setAttribute("href", links[i]);
+				info_span.appendChild(ext_link);
+			}
+		}
+		
 	}
 	inner_div.appendChild(info_span);
 	// Done with inner div, add ito outer div

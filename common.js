@@ -15,7 +15,7 @@ function httpGetAsync(url, callback)// copied from stackoverflow.com/questions/2
 }
 
 function post_url_from_id(post_id) {
-    return "/posts/" + post_id + ".html";
+    return "/posts/" + post_id;
 }
 
 // returns: {tag-name: number of occurances}

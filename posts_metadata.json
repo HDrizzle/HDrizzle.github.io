@@ -1,75 +1,88 @@
 {
-	"template": {
+	"template.html": {
 		"name": "Post Template",
 		"tags": ["template"],
 		"started": "2026-08-01",
 		"hidden": true
 	},
-	"bike_bags": {
+	"diff_eq_2025_numerical_integration.pdf": {
+		"name": "Numerical Integration Paper",
+		"tags": ["physics"],
+		"started": "2025-12-11",
+		"image": "numerical_int_thumbnail_2025.png"
+	},
+	"bike_kom_tachometer.html": {
+		"name": "Bike KOM Tach",
+		"tags": ["cycling", "electronics", "project"],
+		"started": "2026-08-03",
+		"desc": "Bike Tachometer for Mt Washington Race",
+		"ext_links": ["https://github.com/HDrizzle/diy_bike_tech/tree/main/bike_kom_tach"]
+	},
+	"bike_bags.html": {
 		"name": "Bike cargo bags",
 		"tags": ["cycling", "project"],
 		"started": "2026-07-09",
 		"desc": "Attempt to sew my own waterproof bike cargo bags",
 		"image": "bike_stuff/back_bag_paper.jpeg"
 	},
-	"antenna_system": {
+	"antenna_system.html": {
 		"name": "Amature Radio Antenna, Accessories",
 		"tags": ["amateur-radio", "electronics"],
 		"started": "2026-07-18",
 		"image": "amateur_radio/feedpoint_balun_loading_coil.jpeg",
 		"desc": "My experiments with antennas, loading coils, BalUns, etc"
 	},
-	"computer_v1": {
+	"computer_v1.html": {
 		"name": "Original 8 Bit Computer",
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-03-11",
 		"image": "computer_v1/computer_v1_completed_back.jpeg",
-		"link": "https://github.com/HDrizzle/stack_machine",
+		"ext_links": ["https://github.com/HDrizzle/stack_machine"],
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
-	"computer_v2": {
+	"computer_v2.html": {
 		"name": "Computer V2",
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2026-01-23",
 		"desc": "A fully backwards-compatible version of my first computer, this design has much better performance and more features. I have not started building it yet because of the cost, however I have a working simulation.",
-		"link": "https://github.com/HDrizzle/stack_machine",
+		"ext_links": ["https://github.com/HDrizzle/stack_machine"],
 		"image": "computer_v2/computer_v2_fibonacci.webp"
 	},
-	"rusty_logic": {
+	"rusty_logic.html": {
 		"name": "Rusty Logic",
 		"tags": ["digital-logic", "project", "rust", "programming", "showcase"],
 		"started": "2025-06-11",
 		"image": "rusty_logic_example_scrot.png",
-		"link": "https://github.com/HDrizzle/rusty_logic_core",
+		"ext_links": ["https://github.com/HDrizzle/rusty_logic_core"],
 		"desc": "I was inspired to create this program after making a crude logic simulator/animator in TS for MotionCanvas for my DIY computer presentation. It is written in Rust and is the program I used to design the 2nd version of my computer."
 	},
-	"amateur_radio": {
+	"amateur_radio.html": {
 		"name": "Amateur Radio - KC1YKK",
 		"tags": ["amateur-radio", "electronics", "showcase"],
 		"started": "2025-10-01",
 		"desc": "Description of my activities and projects so far related to Amateur Radio, also called Ham Radio",
 		"image": "amateur_radio/rig_setup_outside_2026.jpeg"
 	},
-	"hf_antenna_matcher_v1": {
+	"hf_antenna_matcher_v1.html": {
 		"name": "HF Antenna Matcher",
 		"tags": ["amateur-radio", "electronics", "project"],
 		"started": "2026-04-02",
 		"desc": "DIY HF Antenna impedance matcher, built entirely out of parts collected from WPI's EE building",
 		"image": "amateur_radio/hf_tuner_v1_done.jpeg"
 	},
-	"sparkler_powder_rocket": {
+	"sparkler_powder_rocket.html": {
 		"name": "Sparkler Powder Rocket Testing",
 		"tags": ["pyrotechnics", "project"],
 		"started": "2025-12-31",
 		"desc": "Long story of trying and failing to build a rocket engine that burns sparkler powder",
 		"image": "rocket/rocket_v1_firing.jpg"
 	},
-	"sailboat_simulator": {
+	"sailboat_simulator.html": {
 		"name": "Sailboat Simulator",
 		"tags": ["programming", "physics", "python", "project"],
 		"started": "2021",
 		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
-		"link": "https://github.com/HDrizzle/sailboat_simulator_python",
+		"ext_links": ["https://github.com/HDrizzle/sailboat_simulator_python"],
 		"image": "sailboat_simulator_simple_scrot.png"
 	}
 }
