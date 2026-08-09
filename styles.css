@@ -66,3 +66,27 @@ body {
 	height: auto;
 	margin: 0.3em;
 }
+
+.link-with-logo {
+	margin: 0.3em;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 2em;
+	display: flex;
+	flex-direction: row;
+}
+
+.link-with-logo span {
+	margin: 0.5em;
+	padding: 0em;
+	font-size: 1em;
+}
+
+.link-with-logo img {
+	margin: 0.25em;
+	display: block;
+	max-height:1.5em;
+	width: auto;
+	height: auto;
+}

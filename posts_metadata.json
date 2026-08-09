@@ -37,7 +37,7 @@
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-03-11",
 		"image": "computer_v1/computer_v1_completed_back.jpeg",
-		"ext_links": ["https://github.com/HDrizzle/stack_machine"],
+		"ext_links": ["https://github.com/HDrizzle/stack_machine", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
 	"computer_v2.html": {
