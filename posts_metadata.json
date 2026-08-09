@@ -5,6 +5,12 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"coil_gun.html": {
+		"name": "Capacitor Bank Coil Gun",
+		"tags": ["electronics"],
+		"started": "2025-07-01",
+		"image": "coil_gun.jpeg"
+	},
 	"diff_eq_2025_numerical_integration.pdf": {
 		"name": "Numerical Integration Paper",
 		"tags": ["physics"],

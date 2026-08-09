@@ -79,6 +79,7 @@ body {
 
 .link-with-logo span {
 	margin: 0.5em;
+	margin-left: 0em;
 	padding: 0em;
 	font-size: 1em;
 }
