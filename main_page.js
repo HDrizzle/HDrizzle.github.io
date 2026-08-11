@@ -103,7 +103,7 @@ function list_top_tags() {
 	// Add up to N of them to tag box
 	let tag_box = document.getElementById("tag-box");
 	tag_box.replaceChildren();// Make sure old stuff is deleted when refresh
-	for(let i = 0; i < 10 & i < tags_array.length; i++) {
+	for(let i = 0; i < 20 & i < tags_array.length; i++) {
 		// Create tag element
 		let tag_elem = create_tag_element("+ " + tags_array[i][0] + " " + tags_array[i][1]);
 		tag_elem.addEventListener("click", function(){add_tag_to_filter(tags_array[i][0])})

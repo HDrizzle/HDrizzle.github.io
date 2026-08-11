@@ -1,3 +1,13 @@
+To create new post:
+
+1. Create entry in `posts_metadata.json`, the key must be unique:
+    * For the date, it does not need to precise down to the day, OBVIOUSLY ISO 8601 WILL BE USED
+    * Also for the date: ZERO PAD THE MONTH AND DAY so that the text-based sorting sorts them correctly
+2. Create a file in `/posts` with the same name as the key that was just added to `posts_metadata.json`
+3. Open `/posts/template.html` and copy the contents over to the new file
+4. Modify the title as needed
+5. In the <head> there is a <div hidden id="post-id">template.html</div>. Change the contents of this to the file name. This element is used by the JS script to add stuff to the post
+
 Useful websites:
 
 For logos, transparent backgrounds, free: https://www.pngwing.com/en/free-png-bmozj/download
@@ -5,3 +15,5 @@ For logos, transparent backgrounds, free: https://www.pngwing.com/en/free-png-bm
 Pixel art, GIF generator: https://www.piskelapp.com/p/create/sprite/
 
 Email hider: https://mailhide.io/en
+
+HTML Escape sequence generator: https://openformatter.com/html-escape

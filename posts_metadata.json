@@ -5,6 +5,19 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"mt_washington.html": {
+		"name": "Mt Washington Bicycle Hillclimb",
+		"tags": ["blog", "cycling"],
+		"started": "2024-08-17",
+		"image": "bike_stuff/mt_washington_2024.jpg"
+	},
+	"evolution_sim.html": {
+		"name": "Evolution Simulator",
+		"tags": ["simulation", "project", "rust"],
+		"started": "2022",
+		"image": "evolution_sim.png",
+		"ext_links": ["https://github.com/HDrizzle/evolution_model"]
+	},
 	"coil_gun.html": {
 		"name": "Capacitor Bank Coil Gun",
 		"tags": ["electronics", "project"],
@@ -86,7 +99,7 @@
 	},
 	"sailboat_simulator.html": {
 		"name": "Sailboat Simulator",
-		"tags": ["programming", "physics", "python", "project"],
+		"tags": ["programming", "simulation", "physics", "python", "project"],
 		"started": "2021",
 		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
 		"ext_links": ["https://github.com/HDrizzle/sailboat_simulator_python"],
