@@ -35,6 +35,7 @@ function create_post_thumbnail(post_id) {
 				ext_link.style.marginLeft = "1em";
 				ext_link.innerHTML = links[i];
 				ext_link.setAttribute("href", links[i]);
+				ext_link.setAttribute("target", "_blank");// https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html
 				info_span.appendChild(ext_link);
 			}
 		}

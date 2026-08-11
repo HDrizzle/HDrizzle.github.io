@@ -7,7 +7,7 @@
 	},
 	"coil_gun.html": {
 		"name": "Capacitor Bank Coil Gun",
-		"tags": ["electronics"],
+		"tags": ["electronics", "project"],
 		"started": "2025-07-01",
 		"image": "coil_gun.jpeg"
 	},
@@ -21,8 +21,9 @@
 		"name": "Bike KOM Tach",
 		"tags": ["cycling", "electronics", "project"],
 		"started": "2026-08-03",
-		"desc": "Bike Tachometer for Mt Washington Race",
-		"ext_links": ["https://github.com/HDrizzle/diy_bike_tech/tree/main/bike_kom_tach"]
+		"desc": "Bike Tachometer and live gap calculator for Mt Washington Race, using an Arduino",
+		"ext_links": ["https://github.com/HDrizzle/diy_bike_tech/tree/main/bike_kom_tach"],
+		"image": "bike_stuff/bike_tach.jpg"
 	},
 	"bike_bags.html": {
 		"name": "Bike cargo bags",
