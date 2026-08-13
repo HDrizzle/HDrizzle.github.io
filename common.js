@@ -48,3 +48,25 @@ function create_tag_element(tag) {
     new_tag_elem.className = "tag";
     return new_tag_elem;
 }
+
+function create_info_span_tag(post_metadata) {
+    let info_span = document.createElement("div");
+	let sub_span = document.createElement("span");
+	sub_span.innerHTML = "Started " + post_metadata["started"];
+	info_span.appendChild(sub_span);
+	// Optional links within info span
+	if(post_metadata.hasOwnProperty("ext_links")) {
+		let links = post_metadata["ext_links"];
+		if(links.length > 0) {
+			for(let i = 0; i < links.length; i++) {
+				let ext_link = document.createElement("a");
+				ext_link.style.marginLeft = "1em";
+				ext_link.innerHTML = links[i];
+				ext_link.setAttribute("href", links[i]);
+				ext_link.setAttribute("target", "_blank");// https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html
+				info_span.appendChild(ext_link);
+			}
+		}
+	}
+    return info_span;
+}
