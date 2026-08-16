@@ -9,7 +9,7 @@
 		"name": "Mt Washington Bicycle Hillclimb",
 		"tags": ["blog", "cycling"],
 		"started": "2024-08-17",
-		"image": "bike_stuff/mt_washington_2024.jpg"
+		"image": "bike_stuff/mwarbh_2024.jpeg"
 	},
 	"evolution_sim.html": {
 		"name": "Evolution Simulator",
@@ -36,7 +36,7 @@
 		"started": "2026-08-03",
 		"desc": "Bike Tachometer and live gap calculator for Mt Washington Race, using an Arduino",
 		"ext_links": ["https://github.com/HDrizzle/diy_bike_tech/tree/main/bike_kom_tach"],
-		"image": "bike_stuff/bike_tach.jpg"
+		"image": "bike_stuff/mwarbh_2026_kom_timer.jpeg"
 	},
 	"bike_bags.html": {
 		"name": "Bike cargo bags",
@@ -46,7 +46,7 @@
 		"image": "bike_stuff/back_bag_paper.jpeg"
 	},
 	"antenna_system.html": {
-		"name": "Amature Radio Antenna, Accessories",
+		"name": "Amateur Radio Antenna, Accessories",
 		"tags": ["amateur-radio", "electronics"],
 		"started": "2026-07-18",
 		"image": "amateur_radio/feedpoint_balun_loading_coil.jpeg",
@@ -104,5 +104,11 @@
 		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
 		"ext_links": ["https://github.com/HDrizzle/sailboat_simulator_python"],
 		"image": "sailboat_simulator_simple_scrot.png"
+	},
+	"tower_and_anemometer.html": {
+		"name": "Tower & Anemometer",
+		"tags": ["project", "electronics"],
+		"started": "2018?",
+		"desc": "Very old ancient project that lasted until summer of 2025 when I finally disassembled it. I'm writing about it in 2026 so some details are missing."
 	}
 }
