@@ -5,6 +5,12 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"bike_packing.html": {
+		"name": "Bikepacking",
+		"tags": ["blog", "cycling"],
+		"started": "2026-08-17",
+		"image": "bike_stuff/first_bikepacking_belfast.jpeg"
+	},
 	"mt_washington.html": {
 		"name": "Mt Washington Bicycle Hillclimb",
 		"tags": ["blog", "cycling"],
