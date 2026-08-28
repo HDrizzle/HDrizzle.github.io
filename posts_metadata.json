@@ -5,6 +5,12 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"loring_afb.html": {
+		"name": "Exploring Loring Air Force Base",
+		"tags": ["blog", "urbex"],
+		"started": "2023-8-15",
+		"image": "loring/from_runway_hut.JPG"
+	},
 	"bike_packing.html": {
 		"name": "Bikepacking",
 		"tags": ["blog", "cycling"],
@@ -19,7 +25,7 @@
 	},
 	"evolution_sim.html": {
 		"name": "Evolution Simulator",
-		"tags": ["simulation", "project", "rust"],
+		"tags": ["simulation", "programming", "project", "rust"],
 		"started": "2022",
 		"image": "evolution_sim.png",
 		"ext_links": ["https://github.com/HDrizzle/evolution_model"]

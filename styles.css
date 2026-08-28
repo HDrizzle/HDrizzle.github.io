@@ -111,3 +111,15 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+a:link {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #0000EE;
+}

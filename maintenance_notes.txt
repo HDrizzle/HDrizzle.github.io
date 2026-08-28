@@ -8,6 +8,8 @@ To create new post:
 4. Modify the title as needed
 5. In the <head> there is a <div hidden id="post-id">template.html</div>. Change the contents of this to the file name. This element is used by the JS script to add stuff to the post
 
+Put the target="_blank" attribute in <a> elements so they open in a new tab.
+
 Useful websites:
 
 For logos, transparent backgrounds, free: https://www.pngwing.com/en/free-png-bmozj/download
