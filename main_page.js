@@ -84,7 +84,7 @@ function list_top_tags() {
 	// Add up to N of them to tag box
 	let tag_box = document.getElementById("tag-box");
 	tag_box.replaceChildren();// Make sure old stuff is deleted when refresh
-	for(let i = 0; i < 20 & i < tags_array.length; i++) {
+	for(let i = 0; i < tags_array.length; i++) {
 		// Create tag element
 		let tag_elem = create_tag_element("+ " + tags_array[i][0] + " " + tags_array[i][1]);
 		tag_elem.addEventListener("click", function(){add_tag_to_filter(tags_array[i][0])})
@@ -114,7 +114,7 @@ function remove_tag_from_filter(tag_name) {
 	list_posts();
 }
 
-const DEFAULT_TAG = "showcase";
+const DEFAULT_TAGS = ["showcase"];
 var posts_metadata_global = {};
 var tags_global = {}// tags should be: {tag-name: N occurances}
 var current_filter_tags_global = new Set([]);
@@ -123,7 +123,9 @@ function setup_page_and_global_variables(posts_matadata_raw) {
 	posts_metadata_global = JSON.parse(posts_matadata_raw);
 	tags_global = compile_all_tags(posts_metadata_global);
 	document.getElementById("tag-search").addEventListener("input", list_top_tags);
-	add_tag_to_filter(DEFAULT_TAG);
+	for(let i = 0; i < DEFAULT_TAGS.length; i++) {
+		add_tag_to_filter(DEFAULT_TAGS[i]);
+	}
 	list_top_tags();
 	list_posts();
 }

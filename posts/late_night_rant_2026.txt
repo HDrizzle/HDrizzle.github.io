@@ -1,0 +1,10 @@
+Copied from a comment in the Rusty Logic source
+
+// Its late in the night I am typing from the light of the keyboard
+// I can't fall asleep so im working on this. I wonder what I will get up to in the future. I an a nerd and I love computers (obviously because I am writing my own logic simulator
+// to redisign a computer I built myself in high school because I wanted to). However I also believe that video games are the biggest waste of life and I value being fit and being outside in nature,
+// or "touching grass" as they would say. I am good at what I do which has gotten me to being an ECE major at WPI, but the more I'm here the more I miss everything which has nothing to do with technology.
+// There's a fireship video "How to flex as a programmer" and in the end the programmer blows up his (valid gender assumption) computer and becomes a farmer. He notices dew on a spiderweb which reminds him of a silicon wafer which can compute billions of operations per second to run models we don't even understand. But the spider has just been flexing on him.
+// I want to go bikepacking really far (like across Canada) with some basic supplies, a ham radio (ok this is technology), and no internet.
+// Rant 2: No matter how advanced technology gets, such as AI, DoorDash, Cities, we will never get away from grass which we will always have to touch
+// This means that the less you touch grass the less prepared you are for life.

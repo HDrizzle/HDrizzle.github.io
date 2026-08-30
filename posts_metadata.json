@@ -5,6 +5,19 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"working_at_second_story.html": {
+		"name": "Working at Second Story Builders, LLC",
+		"tags": ["work", "showcase"],
+		"started": "2026-06-08",
+		"desc": "Over the summer of 2026 I worked in deconstructing buildings to save reusable material, which is mostly wood. The company also does new construction with those materials.",
+		"image": "long_house_shed_window.png",
+		"ext_links": ["https://www.secondstorybuilders.com/"]
+	},
+	"late_night_rant_2026.txt": {
+		"name": "Late Night Programming Rant",
+		"tags": [],
+		"started": "2026-02-24"
+	},
 	"loring_afb.html": {
 		"name": "Exploring Loring Air Force Base",
 		"tags": ["blog", "urbex"],
@@ -69,7 +82,7 @@
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-03-11",
 		"image": "computer_v1/computer_v1_completed_back.jpeg",
-		"ext_links": ["https://github.com/HDrizzle/stack_machine", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
+		"ext_links": ["/posts/computer_v1_presentation_2025.pdf", "https://github.com/HDrizzle/stack_machine/blob/main/version_1/README_old_v1.md", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
 	"computer_v2.html": {
@@ -82,7 +95,7 @@
 	},
 	"rusty_logic.html": {
 		"name": "Rusty Logic",
-		"tags": ["digital-logic", "project", "rust", "programming", "showcase"],
+		"tags": ["digital-logic", "project", "rust", "programming", "simulation", "showcase"],
 		"started": "2025-06-11",
 		"image": "rusty_logic_example_scrot.png",
 		"ext_links": ["https://github.com/HDrizzle/rusty_logic_core"],
