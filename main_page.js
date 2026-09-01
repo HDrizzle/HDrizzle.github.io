@@ -28,7 +28,7 @@ function create_post_thumbnail(post_id) {
 	// Add image
 	if(post_metadata.hasOwnProperty("image")) {
 		let img = document.createElement("img");
-		img.setAttribute("src", "/images/" + post_metadata["image"]);
+		img.setAttribute("src", post_metadata["image"]);
 		outer_div.appendChild(img);
 	}
 	// Done
