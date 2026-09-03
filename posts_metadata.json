@@ -24,7 +24,8 @@
 	"late_night_rant_2026.txt": {
 		"name": "Late Night Programming Rant",
 		"tags": [],
-		"started": "2026-02-24"
+		"started": "2026-02-24",
+		"hidden": true
 	},
 	"loring_afb.html": {
 		"name": "Exploring Loring Air Force Base",
