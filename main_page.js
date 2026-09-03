@@ -86,7 +86,7 @@ function list_top_tags() {
 	tag_box.replaceChildren();// Make sure old stuff is deleted when refresh
 	for(let i = 0; i < tags_array.length; i++) {
 		// Create tag element
-		let tag_elem = create_tag_element("+ " + tags_array[i][0] + " " + tags_array[i][1]);
+		let tag_elem = create_tag_element("+ " + tags_array[i][0] + " " + tags_array[i][1], true);
 		tag_elem.addEventListener("click", function(){add_tag_to_filter(tags_array[i][0])})
 		tag_elem.id = "tag-box-entry-" + tags_array[i][0];
 		tag_box.appendChild(tag_elem);
@@ -99,7 +99,7 @@ function add_tag_to_filter(tag_name) {
 	let filter_tags = document.getElementById("applied-filter-tags");
 	// Make sure its not already there
 	if(filter_tags.querySelector("#applied-filter-tag-" + tag_name) == null) {
-		let tag_elem = create_tag_element("- " + tag_name + " " + tags_global[tag_name]);
+		let tag_elem = create_tag_element("- " + tag_name + " " + tags_global[tag_name], true);
 		tag_elem.addEventListener("click", function(){remove_tag_from_filter(tag_name)})
 		tag_elem.id = "applied-filter-tag-" + tag_name;
 		filter_tags.appendChild(tag_elem);

@@ -42,10 +42,13 @@ function compile_all_tags(posts_metadata) {
     return out;
 }
 
-function create_tag_element(tag) {
+function create_tag_element(tag, is_clickable=false) {
     let new_tag_elem = document.createElement("span");
     new_tag_elem.innerHTML = tag.toUpperCase();
     new_tag_elem.className = "tag";
+    if(is_clickable) {
+        new_tag_elem.style.cursor = "pointer";
+    }
     return new_tag_elem;
 }
 
